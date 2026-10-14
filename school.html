@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kripaon Ki Mata High School, Raja Ka Tajpur, Bijnor (UP) - Official school website.">
+  <meta name="theme-color" content="#0a1a3f">
+  <title>Kripaon Ki Mata High School | Raja Ka Tajpur, Bijnor</title>
+
+  <!-- FontAwesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="style-v2.css">
+</head>
+
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!--HEADER-->
+  <header id="top">
+    <div class="container nav-wrapper">
+     <a href="#home" class="logo">
+         <img src="school-logo.jpeg.jpg" class="school-logo-img">
+        <span class="logo-text">Kripaon Ki Mata High School
+          <small>Raja Ka Tajpur, Bijnor (UP)</small>
+        </span>
+      </a>
+
+      <nav id="navMenu" aria-label="Main navigation">
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#academics">Academics</a></li>
+          <li><a href="#notice">Notice</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+      <div class="container">
+        <h1>Kripaon Ki Mata <span>High School</span></h1>
+        <p class="tagline">Shaping Young Minds, Building a Bright Future</p>
+        <p class="location"><i class="fa-solid fa-location-dot"></i> Raja Ka Tajpur, Bijnor, Uttar Pradesh</p>
+        <div class="cta">
+          <a href="#admission" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> Apply for Admission</a>
+          <a href="#about" class="btn btn-outline"><i class="fa-solid fa-circle-info"></i> Know More</a>
+        </div>
+      </div>
+      <svg class="hero-curve" viewBox="0 0 1440 70" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0,40 C360,90 1080,-10 1440,40 L1440,70 L0,70 Z"></path>
+      </svg>
+    </section>
+
+    <!-- ================= TICKER ================= -->
+    <section class="ticker" id="notice" aria-label="Latest school notices">
+      <div class="ticker-label"><i class="fa-solid fa-bullhorn"></i> <span class="label-text">Latest Notices</span></div>
+      <div class="ticker-track">
+        <div class="ticker-inner">
+          <ul>
+            <li><i class="fa-solid fa-circle"></i>Half-yearly examination </li>
+            <li><i class="fa-solid fa-circle"></i>Yearly examination </li>
+            <li><i class="fa-solid fa-circle"></i>Parent-Teacher Meeting </li>
+            <li><i class="fa-solid fa-circle"></i>Sports</li>
+            <li><i class="fa-solid fa-circle"></i>School will remain closed on public holidays as per UP Government calendar</li>
+          </ul>
+          <!-- duplicate for a seamless infinite loop -->
+          <ul aria-hidden="true">
+            <li><i class="fa-solid fa-circle"></i>Half-yearly examination </li>
+            <li><i class="fa-solid fa-circle"></i>Yearly examination </li>
+            <li><i class="fa-solid fa-circle"></i>Parent-Teacher Meeting </li>
+            <li><i class="fa-solid fa-circle"></i>Sports </li>
+            <li><i class="fa-solid fa-circle"></i>School will remain closed on public holidays as per UP Government calendar</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-title reveal">
+          <span class="eyebrow">Who We Are</span>
+          <h2>About Us</h2>
+          <div class="line"></div>
+          <p>Education with values, discipline and care</p>
+        </div>
+
+        <div class="about-grid">
+          <article class="about-text reveal">
+            <h3>Welcome to Our School</h3>
+            <p>Kripaon Ki Mata High School, located in Raja Ka Tajpur, Bijnor, is dedicated to providing quality education to children of our village and nearby areas. We believe every child has the potential to shine when given the right guidance and environment.</p>
+            <p>Our experienced teachers focus on strong fundamentals, moral values, and modern skills so that students are ready for higher studies and for life.</p>
+            <div class="stats">
+              <div class="stat"><strong>500+</strong><span>Students</span></div>
+              <div class="stat"><strong>15+</strong><span>Teachers</span></div>
+              <div class="stat"><strong>30+</strong><span>Years of Service</span></div>
+            </div>
+          </article>
+
+          <aside class="principal-card reveal" aria-label="Principal's Message">
+            <img class="avatar"
+                 src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&h=400&q=80"
+                 alt="Portrait of the school principal"
+                 width="118" height="118"
+                 onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 118 118%22><rect width=%22118%22 height=%22118%22 fill=%22%23142d6e%22/><circle cx=%2259%22 cy=%2246%22 r=%2222%22 fill=%22%23f2b134%22/><path d=%22M18 112c4-30 78-30 82 0z%22 fill=%22%23f2b134%22/></svg>'">
+            <blockquote>
+              &ldquo;Education is not just about marks; it is about building character. Our mission is to give every child confidence, knowledge and good values. I welcome you to our school family.&rdquo;
+            </blockquote>
+            <h4>Sister Vinita</h4>
+            <small>Principal, Kripaon Ki Mata High School</small>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ACADEMICS / FACILITIES ================= -->
+    <section class="section academics" id="academics">
+      <div class="container">
+        <div class="section-title reveal">
+          <span class="eyebrow">Academics &amp; Campus</span>
+          <h2>Our Facilities</h2>
+          <div class="line"></div>
+          <p>Everything your child needs to learn and grow</p>
+        </div>
+
+        <div class="facilities-grid">
+          <article class="facility-card reveal">
+            <div class="icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+            <h3>Smart Class</h3>
+            <p>Digital boards and audio-visual teaching make difficult topics easy and interesting.</p>
+          </article>
+          <article class="facility-card reveal">
+            <div class="icon"><i class="fa-solid fa-computer"></i></div>
+            <h3>Computer Lab</h3>
+            <p>Hands-on computer education with updated systems to build digital skills early.</p>
+          </article>
+          <article class="facility-card reveal">
+            <div class="icon"><i class="fa-solid fa-futbol"></i></div>
+            <h3>Sports</h3>
+            <p>Open playground for cricket, kabaddi, kho-kho and athletics for physical fitness.</p>
+          </article>
+          <article class="facility-card reveal">
+            <div class="icon"><i class="fa-solid fa-book-open"></i></div>
+            <h3>Library</h3>
+            <p>A quiet reading space with textbooks, story books and reference material.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ADMISSION ENQUIRY ================= -->
+    <section class="section admission" id="admission">
+      <div class="container">
+        <div class="section-title reveal">
+          <span class="eyebrow">Join Us</span>
+          <h2>Admission Enquiry</h2>
+          <div class="line"></div>
+          <p>Fill the form and our office will contact you</p>
+        </div>
+
+        <div class="admission-grid">
+          <div class="admission-info reveal">
+            <h3>Why Join Us?</h3>
+            <ul>
+              <li><i class="fa-solid fa-check"></i> Experienced and caring teachers</li>
+              <li><i class="fa-solid fa-check"></i> Affordable fee structure</li>
+              <li><i class="fa-solid fa-check"></i> Focus on discipline and values</li>
+              <li><i class="fa-solid fa-check"></i> Computer and smart class learning</li>
+              <li><i class="fa-solid fa-check"></i> Safe and friendly campus</li>
+            </ul>
+            <div class="admission-contact">
+              <p><i class="fa-solid fa-phone"></i> Office: +91 98765 43210</p>
+              <p><i class="fa-regular fa-clock"></i> Mon - Sat, 8:00 AM - 2:00 PM</p>
+            </div>
+          </div>
+
+          <form id="admissionForm" class="reveal" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="studentName">Student Name <span aria-hidden="true">*</span></label>
+                <input type="text" id="studentName" autocomplete="off" placeholder="Enter student's full name" aria-required="true">
+                <div class="error-msg" role="alert">Please enter a valid name (min 3 letters).</div>
+              </div>
+              <div class="form-group">
+                <label for="parentName">Parent's Name <span aria-hidden="true">*</span></label>
+                <input type="text" id="parentName" autocomplete="name" placeholder="Father / Mother name" aria-required="true">
+                <div class="error-msg" role="alert">Please enter parent's name.</div>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Mobile Number <span aria-hidden="true">*</span></label>
+                <input type="tel" id="phone" inputmode="numeric" autocomplete="tel-national" placeholder="10-digit mobile number" maxlength="10" aria-required="true">
+                <div class="error-msg" role="alert">Enter a valid 10-digit Indian mobile number.</div>
+              </div>
+              <div class="form-group">
+                <label for="classApply">Class for Admission <span aria-hidden="true">*</span></label>
+                <select id="classApply" aria-required="true">
+                  <option value="">-- Select Class --</option>
+                  <option>Class 6</option>
+                  <option>Class 7</option><option>Class 8</option><option>Class 9</option>
+                  <option>Class 10</option>
+                </select>
+                <div class="error-msg" role="alert">Please select a class.</div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email (optional)</label>
+              <input type="email" id="email" autocomplete="email" placeholder="example@email.com">
+              <div class="error-msg" role="alert">Please enter a valid email address.</div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="3" placeholder="Any question or special requirement..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Submit Enquiry</button>
+
+            <div class="form-success" id="formSuccess" role="status" aria-live="polite">
+              <i class="fa-solid fa-circle-check"></i>
+              <span id="successText">Thank you! Your enquiry has been received.</span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= GALLERY ================= -->
+    <section class="section gallery" id="gallery">
+      <div class="container">
+        <div class="section-title reveal">
+          <span class="eyebrow">Campus Life</span>
+          <h2>Photo Gallery</h2>
+          <div class="line"></div>
+          <p>Moments from school life (placeholder images)</p>
+        </div>
+
+        <div class="gallery-grid">
+          <figure class="gallery-card reveal">
+            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=900&q=80" alt="Students learning in a classroom" loading="lazy" width="900" height="675">
+            <figcaption><h4>Classroom Learning</h4><p>Interactive teaching sessions</p></figcaption>
+          </figure>
+          <figure class="gallery-card reveal">
+            <img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=900&q=80" alt="Children studying together" loading="lazy" width="900" height="675">
+            <figcaption><h4>Group Activities</h4><p>Learning together</p></figcaption>
+          </figure>
+          <figure class="gallery-card reveal">
+            <img src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?auto=format&fit=crop&w=900&q=80" alt="Students playing sports outdoors" loading="lazy" width="900" height="675">
+            <figcaption><h4>Sports Day</h4><p>Fitness and team spirit</p></figcaption>
+          </figure>
+          <figure class="gallery-card reveal">
+            <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=900&q=80" alt="Graduates celebrating at an annual function" loading="lazy" width="900" height="675">
+            <figcaption><h4>Annual Function</h4><p>Celebrating achievements</p></figcaption>
+          </figure>
+          <figure class="gallery-card reveal">
+            <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=900&q=80" alt="Teacher guiding students in class" loading="lazy" width="900" height="675">
+            <figcaption><h4>Our Teachers</h4><p>Guiding every student</p></figcaption>
+          </figure>
+          <figure class="gallery-card reveal">
+            <img src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?auto=format&fit=crop&w=900&q=80" alt="Students reading in a library" loading="lazy" width="900" height="675">
+            <figcaption><h4>Library Time</h4><p>Building reading habits</p></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer id="contact">
+    <div class="container footer-grid">
+      <div>
+        <h4>Kripaon Ki Mata High School</h4>
+        <p>Providing quality education with values to the children of Raja Ka Tajpur and nearby villages.</p>
+        <div class="social">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><i class="fa-solid fa-angle-right"></i><a href="#home">Home</a></li>
+          <li><i class="fa-solid fa-angle-right"></i><a href="#about">About</a></li>
+          <li><i class="fa-solid fa-angle-right"></i><a href="#academics">Academics</a></li>
+          <li><i class="fa-solid fa-angle-right"></i><a href="#notice">Notice</a></li>
+          <li><i class="fa-solid fa-angle-right"></i><a href="#gallery">Gallery</a></li>
+          <li><i class="fa-solid fa-angle-right"></i><a href="#admission">Admission</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Contact Us</h4>
+        <ul>
+          <li><i class="fa-solid fa-location-dot"></i> Raja Ka Tajpur, Bijnor, Uttar Pradesh - 246xxx</li>
+          <li><i class="fa-solid fa-phone"></i> +91 98765 43210</li>
+          <li><i class="fa-solid fa-envelope"></i> info@kmhs-tajpur.example</li>
+          <li><i class="fa-regular fa-clock"></i> Mon - Sat: 8:00 AM - 2:00 PM</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      &copy; <span id="year">2026</span> Kripaon Ki Mata High School, Raja Ka Tajpur, Bijnor. All rights reserved.
+    </div>
+  </footer>
+
+  <button id="backToTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <!-- ================= JAVASCRIPT ================= -->
+  <script src="script-v2.js"></script>
+</body>
+</html>
